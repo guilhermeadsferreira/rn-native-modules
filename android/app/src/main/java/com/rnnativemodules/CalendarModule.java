@@ -66,7 +66,7 @@ public class CalendarModule extends ReactContextBaseJavaModule {
 
     public String formatEvent(String name, String location) throws Exception {
         if (name == null || name.isEmpty()) {
-            throw new Exception("Name deve ser preenchido!");
+            throw new Exception("Título deve ser preenchido!");
         }
 
         if (location == null || location.isEmpty()) {
